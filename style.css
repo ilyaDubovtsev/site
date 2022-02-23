@@ -1,0 +1,43 @@
+body{
+    font-family: 'consolas';
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    flex-direction: column;
+    overflow: hidden;
+    animation: appear 1.5s;
+}
+
+h1{
+    grid-column: 2 / 3;
+    grid-row: 1;
+    text-align: center;
+}
+
+.links{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+a{
+    display: ;
+}
+
+
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+  
+    to {
+        opacity: 1;
+
+    }
+}
+
+
